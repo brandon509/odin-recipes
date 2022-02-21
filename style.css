@@ -1,8 +1,14 @@
+* {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1 {
     background-color: purple;
     color: lime;
     text-align: center;
     font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 a {
@@ -16,24 +22,36 @@ a {
    
 }
 
-ul li {
+.dough,
+.toppings {
     color: red;
 }
 
-#list li {
+#list {
     color:blue;
 }
 
-#list {
-    color: green;
-}
-
-#ya {
-    font-weight: 700;
+#list #ya {
     color: orange;
-   
+    font-weight: 700;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .c {
     text-align: center;
 }
+
+.toppings.important {
+    color: green;
+}
+
+.ins {
+    color:blueviolet;
+}
+
+#st {
+    color:blueviolet;
+    font-size: 12px;
+}
+
