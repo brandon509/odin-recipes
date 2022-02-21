@@ -1,0 +1,39 @@
+h1 {
+    background-color: purple;
+    color: lime;
+    text-align: center;
+    font-size: 70px;
+}
+
+a {
+    font-size: 24px;
+    color: orange;
+}
+
+.food-pic {
+    height: auto;
+    width: 400px;
+   
+}
+
+ul li {
+    color: red;
+}
+
+#list li {
+    color:blue;
+}
+
+#list {
+    color: green;
+}
+
+#ya {
+    font-weight: 700;
+    color: orange;
+   
+}
+
+.c {
+    text-align: center;
+}
